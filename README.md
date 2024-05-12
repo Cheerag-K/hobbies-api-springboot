@@ -15,6 +15,7 @@ The following requirements were set for the project:
 - Back-end Data stored using PostgreSQL
 - Interaction with API done using POST, GET, PUT & DELETE HTTP methods
 - Hobbies stored as PostgreSQL text arrays in database
+- Phone number attribute used as key
 
 
 #### Included within this repository are:
