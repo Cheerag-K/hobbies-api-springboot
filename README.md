@@ -13,7 +13,8 @@ The following requirements were set for the project:
 ### Overview of Project
 - Development of API done in Java using SpringBoot and Hibernate
 - Back-end Data stored using PostgreSQL
-- Interaction with API done using POST, GET, PUT & DELETE HTTP methods.
+- Interaction with API done using POST, GET, PUT & DELETE HTTP methods
+- Hobbies stored as PostgreSQL text arrays in database
 
 
 #### Included within this repository are:
