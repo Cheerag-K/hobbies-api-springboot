@@ -1,0 +1,49 @@
+###
+//add new person
+POST http://localhost:8080/api/persons/v1
+Content-Type: application/json
+
+{"name":"Kim Wexler","address":"123 Bond Street","phone":59321,"hobbies":["Talking","Music","Movies"]}
+
+
+###
+//delete selected person
+DELETE http://localhost:8080/api/persons/v1/59321
+
+###
+//delete hobbies of selected person
+DELETE http://localhost:8080/api/persons/v1/59321?flag=SET
+
+
+
+###
+//find all persons with chosen hobby
+GET http://localhost:8080/api/persons/v1/Walking
+
+
+
+###
+//update name of person
+PUT http://localhost:8080/api/persons/v1/59321?name=Kimberly%20Wexler
+
+
+###
+//update address of person
+PUT http://localhost:8080/api/persons/v1/59321?address=1751%20Bellahmah%20Ave
+
+
+###
+//update both name and adress of person at same time
+PUT http://localhost:8080/api/persons/v1/59321?name=Jim%20Wexler&address=321%20Downing%20Street
+
+
+###
+//update hobbies of person
+PUT http://localhost:8080/api/persons/v1/59321?hobbies=Pranking%2CLawyering%2CSleeping
+
+
+
+###
+//update name, address, and hobbies of person at same time
+PUT http://localhost:8080/api/persons/v1/59321?name=Rhea%20Seehorn&address=Random%20Office%20Florida&hobbies=Mundane%2CWork%2CBoring
+
