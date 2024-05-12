@@ -19,4 +19,4 @@ The following requirements were set for the project:
 
 #### Included within this repository are:
 ##### - Java files: to demonstrate structure of the program
-##### - HTTP Requests file: for the structure and syntax of HTTP requests used for various operations.
+##### - HTTP Requests file: to explain the structure and syntax of HTTP requests used for various operations.
